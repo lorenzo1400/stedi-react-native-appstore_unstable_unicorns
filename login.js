@@ -15,6 +15,19 @@ export default function Login(props){
             </TouchableOpacity>
         </View>
     );
+    return(
+        <View style={styles.login}>
+            <Text>Levi's button</Text>
+            <TouchableOpacity
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Levi");
+              }}
+            >
+              <Text style={{color:'blue'}}>Send</Text>      
+            </TouchableOpacity>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
