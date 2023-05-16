@@ -13,11 +13,7 @@ export default function Login(props){
             >
               <Text style={{color:'blue'}}>Send</Text>      
             </TouchableOpacity>
-        </View>
-    );
-    return(
-        <View style={styles.login}>
-            <Text>Levi's button</Text>
+                    <Text>Levi's button</Text>
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
@@ -26,18 +22,13 @@ export default function Login(props){
             >
               <Text style={{color:'blue'}}>Send</Text>      
             </TouchableOpacity>
-        </View>
-    );
-    return(
-        <View style={styles.login}>
-            <Text>Micah's button</Text>
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
                   await Alert.alert("Hello Micah");
               }}
             >
-              <Text style={{color:'blue'}}>Send</Text>      
+              <Text style={{color:'blue'}}>Micah's Button</Text>      
             </TouchableOpacity>
         </View>
     );
