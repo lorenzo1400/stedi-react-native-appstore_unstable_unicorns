@@ -39,6 +39,16 @@ export default function Login(props){
             >
               <Text style={{color:'blue'}}>Enzo button</Text>      
             </TouchableOpacity>
+
+            <TouchableOpacity
+
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Moses");
+              }}
+            >
+              <Text style={{color:'blue'}}>Moses's Button</Text>      
+            </TouchableOpacity>
         </View>
     );
 }
