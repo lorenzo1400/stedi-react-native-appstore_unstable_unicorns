@@ -19,7 +19,7 @@ export default function Login(props){
                   await Alert.alert("Hello Levi");
               }}
             >
-              <Text style={{color:'blue'}}>Levi's button</Text>      
+              <Text style={{color:'red'}}>Levi's button</Text>      
             </TouchableOpacity>
             
             <TouchableOpacity
