@@ -11,7 +11,7 @@ export default function Login(props){
                   await Alert.alert("Hello Andra");
               }}
             >
-              <Text style={{color:'blue'}}>Send</Text>      
+              <Text style={{color:'blue'}}>Levi's button</Text>      
             </TouchableOpacity>
                     <Text>Levi's button</Text>
             <TouchableOpacity
