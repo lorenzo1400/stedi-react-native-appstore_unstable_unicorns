@@ -30,6 +30,15 @@ export default function Login(props){
             >
               <Text style={{color:'yellow'}}>Micah's Button</Text>      
             </TouchableOpacity>
+            <TouchableOpacity
+
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Enzo");
+              }}
+            >
+              <Text style={{color:'blue'}}>Enzo button</Text>      
+            </TouchableOpacity>
         </View>
     );
 }
