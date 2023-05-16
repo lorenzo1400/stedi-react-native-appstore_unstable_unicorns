@@ -1,13 +1,19 @@
 import React from 'react';
-import {StyleSheet, View, Text, Button} from 'react-native';
+import {View, Text, StyleSheet, TouchableOpacity, Alert} from "react-native";
 
 export default function Login(props){
     return(
         <View style={styles.login}>
-            <Text>This is the Login Screen</Text>
-            <Button title="Log In" onPress={()=>props.setUserLoggedIn(true)}></Button>
+            <Text>Andra's button</Text>
+            <TouchableOpacity
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Andra");
+              }}
+            >
+              <Text style={{color:'blue'}}>Send</Text>      
+            </TouchableOpacity>
         </View>
-
     );
 }
 
