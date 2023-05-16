@@ -19,7 +19,7 @@ export default function Login(props){
                   await Alert.alert("Hello Levi");
               }}
             >
-              <Text style={{color:'blue'}}>Levi's button</Text>      
+              <Text style={{color:'red'}}>Levi's button</Text>      
             </TouchableOpacity>
             
             <TouchableOpacity
@@ -28,7 +28,7 @@ export default function Login(props){
                   await Alert.alert("Hello Micah");
               }}
             >
-              <Text style={{color:'blue'}}>Micah's Button</Text>      
+              <Text style={{color:'yellow'}}>Micah's Button</Text>      
             </TouchableOpacity>
             <TouchableOpacity
 
