@@ -4,24 +4,24 @@ import {View, Text, StyleSheet, TouchableOpacity, Alert} from "react-native";
 export default function Login(props){
     return(
         <View style={styles.login}>
-            <Text>Andra's button</Text>
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
                   await Alert.alert("Hello Andra");
               }}
             >
-              <Text style={{color:'blue'}}>Levi's button</Text>      
+              <Text style={{color:'blue'}}>Andra's button</Text>      
             </TouchableOpacity>
-                    <Text>Levi's button</Text>
+
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
                   await Alert.alert("Hello Levi");
               }}
             >
-              <Text style={{color:'blue'}}>Send</Text>      
+              <Text style={{color:'blue'}}>Levi's button</Text>      
             </TouchableOpacity>
+            
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
