@@ -28,6 +28,19 @@ export default function Login(props){
             </TouchableOpacity>
         </View>
     );
+    return(
+        <View style={styles.login}>
+            <Text>Micah's button</Text>
+            <TouchableOpacity
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Micah");
+              }}
+            >
+              <Text style={{color:'blue'}}>Send</Text>      
+            </TouchableOpacity>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
