@@ -10,7 +10,7 @@ export default function Login(props){
                   await Alert.alert("Hello Andra");
               }}
             >
-              <Text style={{color:'blue'}}>Andra's button</Text>      
+              <Text style={{color:'purple', fontSize: 25}}>Andra's button</Text>      
             </TouchableOpacity>
 
             <TouchableOpacity
@@ -19,7 +19,7 @@ export default function Login(props){
                   await Alert.alert("Hello Levi");
               }}
             >
-              <Text style={{color:'blue'}}>Levi's button</Text>      
+              <Text style={{color:'red', fontSize: 25}}>Levi's button</Text>      
             </TouchableOpacity>
             
             <TouchableOpacity
@@ -28,17 +28,30 @@ export default function Login(props){
                   await Alert.alert("Hello Micah");
               }}
             >
-              <Text style={{color:'blue'}}>Micah's Button</Text>      
+              <Text style={{color:'yellow', fontSize: 25}}>Micah's Button</Text>      
             </TouchableOpacity>
+<<<<<<< HEAD
             
             <TouchableOpacity
+=======
+>>>>>>> 6a54371dc840dc75cdfdd685dfe4fd7ca2f09f8b
 
+            <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
                   await Alert.alert("Hello Enzo");
               }}
             >
-              <Text style={{color:'blue'}}>Enzo button</Text>      
+              <Text style={{color:'blue', fontSize: 25}}>Enzo button</Text>      
+            </TouchableOpacity>
+
+            <TouchableOpacity
+               style={styles.sendButton}
+              onPress={async ()=>{
+                  await Alert.alert("Hello Moses");
+              }}
+            >
+              <Text style={{color:'blue', fontSize: 25}}>Moses's Button</Text>      
             </TouchableOpacity>
         </View>
     );
@@ -46,15 +59,16 @@ export default function Login(props){
 
 const styles = StyleSheet.create({
     login: {
-        flexDirection: 'row',
+        flexDirection: 'column',
         width: '100%',
         justifyContent: 'space-between',
         backgroundColor: 'green',
-        height: '12%',
-        alignItems: 'flex-end',
-        paddingBottom: 5,
+        height: '60%',
+        alignItems: 'center',
+        paddingTop:30,
+        paddingBottom: 30,
         paddingLeft: 10,
-        paddingRight: 10,
+        paddingRight: 10
         
       },
 })
