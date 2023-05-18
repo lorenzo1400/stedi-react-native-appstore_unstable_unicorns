@@ -30,11 +30,6 @@ export default function Login(props){
             >
               <Text style={{color:'yellow', fontSize: 25}}>Micah's Button</Text>      
             </TouchableOpacity>
-<<<<<<< HEAD
-            
-            <TouchableOpacity
-=======
->>>>>>> 6a54371dc840dc75cdfdd685dfe4fd7ca2f09f8b
 
             <TouchableOpacity
                style={styles.sendButton}
